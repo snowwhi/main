@@ -8,9 +8,14 @@ function App() {
 
       function addCount(){
         if (count>=20) {
-          setCount(count)
+         setCount(count)
+         
         }else{
-        setCount(count+1)
+          setCount((prevCounter)=>prevCounter+1)
+          setCount((prevCounter)=>prevCounter+1)
+          setCount((prevCounter)=>prevCounter+1)
+ 
+        //setCount(count+1)
     }}
         function removeCount(){
           if (count>0) {
