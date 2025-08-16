@@ -7,3 +7,22 @@
 ## resize using div do nothing
 ## use React.cloneElement(lottie,{style:{ all the styles}})
 ## background set
+## making inputbox Component
+## using different variables like amount ,label,onamountchange etc for different purpose
+## using Currencydisabled=false,amountdisable=false these kind of varaibles are used for production sites for optimization
+## callback around 100% return strings so use Number()
+## onChange={(e)=>{OnamountChange && OnamountChange(Number(e.target.value))}
+## if varaible retrun nothing app won't crash because of the typesafety
+## using .map(()=>()) for showing list of currency option
+## using key={uniquely identified, id or index}
+## for better optimization of irrteration of object
+##  {CurrencyOptions.map((currency)=> (
+                        <option
+                        key={currency} 
+                        value={currency}>
+                        {currency}
+                        </option>
+                    ))}
+## for this key currency is used as it is always different
+## step3 
+##  making a export file for all the component so there is no need to import each seperately

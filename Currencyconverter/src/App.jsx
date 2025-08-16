@@ -1,6 +1,7 @@
 
 import './index.css'
 import Lottieclock from './components/Lottie'
+import  InputBox  from './components/InputBox';
 function App() {
   return <>
    <div style={{ width: '100%', height: '100vh', backgroundImage: 
@@ -10,7 +11,8 @@ function App() {
           
           <Lottieclock/>
     <div className='w-lg h-96 bg-transparent border-amber-700 border-2 rounded-md'> 
-                 All ui elements        
+                 All ui elements  
+                 <InputBox/>      
     </div>
     </div>
   </>;
