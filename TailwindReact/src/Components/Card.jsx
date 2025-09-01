@@ -1,6 +1,8 @@
 import React from "react";
-
-function Card({name,btntext,description}) {
+import { getImage } from "../helper/images";
+function Card({name,btntext,description,imgName}) {
+    const src = getImage(imgName);
+  console.log("Image lookup:", imgName, "->", src);
     return (  <>
     
 
