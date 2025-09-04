@@ -1,6 +1,6 @@
 import {Link} from "react-router"
 function Footer() {
-    return (<>
+    return (< >
     <footer className="relative bg-white">
         <div className=" static bottom-0 flex flex-wrap justify-around content-center shadow  border-gray-200 border-2 w-full font-medium">
             <div className=" flex flex-wrap flex-col justify-around">
