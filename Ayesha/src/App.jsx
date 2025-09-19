@@ -1,5 +1,5 @@
 import Ayesha from './Ayesha';
-import CountdownTimer from './Countdown';
+
 
 function App() {
   return (

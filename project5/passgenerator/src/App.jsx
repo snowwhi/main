@@ -17,7 +17,7 @@ const [length,setlength]=useState(8)
 }
 
 setPassword(pass)
-console.log(pass)
+
 }, [AllowNum,AllowCharac,length,setPassword]);
 
  const copytoChlipboard=useCallback(()=>{

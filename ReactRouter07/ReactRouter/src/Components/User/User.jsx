@@ -1,8 +1,8 @@
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 function User() {
-    const {userid}=useParams
+    const {userid}=useParams()
     return (<>
-    <div className="items-center">  User :{userid} </div>
+    <div className="text-center">  User:{userid} </div>
     </>  );
 }
 

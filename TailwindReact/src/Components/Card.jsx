@@ -11,6 +11,7 @@ function Card({name,btntext,description,imgName}) {
         <img className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
     </a>
     <div className="p-5">
+         <img src={getImage(imgName)} alt={name} />
         <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
         </a>
