@@ -20,3 +20,5 @@ export default defineConfig({npm run dev
 #####npm run dev
 ### npm i react-router-dom
 while using react with vite
+Adding a random note
+
